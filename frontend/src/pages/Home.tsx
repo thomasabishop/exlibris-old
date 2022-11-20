@@ -1,14 +1,12 @@
+import React from "react"
 import BookTable from "../components/BookTable"
-import Wrapper from "../components/Wrapper"
 const Home = () => {
-  return (
-    <Wrapper>
-      <BookTable />
-    </Wrapper>
-  )
-
-
-
+   return (
+      <React.Fragment>
+         <h1 className="h2 pb-3 pt-1">Index</h1>
+         <BookTable />
+      </React.Fragment>
+   )
 }
 
 export default Home

@@ -1,0 +1,18 @@
+@import "../../App.scss";
+
+.UploadForm {
+   .UploadForm--feedback {
+      font-size: 14px;
+      text-align: end;
+      color: #dc3545;
+   }
+   input.invalid {
+      border-color: #dc3545;
+   }
+   input.invalid:focus {
+      box-shadow: none;
+   }
+   input:focus {
+      box-shadow: none;
+   }
+}
