@@ -5,7 +5,7 @@ import BookTableRow from "../BookTableRow"
 
 const BookTable: React.FC = () => {
    return (
-      <Table striped bordered hover size="sm">
+      <Table striped bordered>
          <thead>
             <tr>
                <th>Category</th>
@@ -16,8 +16,8 @@ const BookTable: React.FC = () => {
             </tr>
          </thead>
          <tbody>
-            {testData.map((datum) => (
-               <BookTableRow book={datum} />
+            {testData.map((bookEntry, index) => (
+               <BookTableRow key={index} {...bookEntry} />
             ))}
          </tbody>
       </Table>
