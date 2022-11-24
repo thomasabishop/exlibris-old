@@ -9,6 +9,11 @@
    input.invalid {
       border-color: #dc3545;
    }
+
+   select.invalid {
+      border-color: #dc3545;
+   }
+
    input.invalid:focus {
       box-shadow: none;
    }
