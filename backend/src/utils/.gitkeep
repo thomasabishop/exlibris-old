@@ -1,0 +1,1 @@
+Utility or “pure” functions. You pass them an input and they simply mutate it and return an output. They are called utility because you can use them in multiple parts of your system, regardless of the business logic behind them. Notable examples are date conversion or encryption/ decryption of functions.
