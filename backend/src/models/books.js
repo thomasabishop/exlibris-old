@@ -25,5 +25,4 @@ const bookSchema = new mongoose.Schema({
 
 const Books = mongoose.model("Books", bookSchema)
 
-// export default Books
 module.exports = Books

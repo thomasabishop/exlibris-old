@@ -4,11 +4,6 @@ const mongoose = require("mongoose")
 const cors = require("cors")
 const books = require("./routes/books.js")
 
-// import express from "express"
-// import helmet from "helmet"
-// import mongoose from "mongoose"
-// import books from "./routes/books.js"
-
 const app = express()
 const port = process.env.PORT || 8000
 
