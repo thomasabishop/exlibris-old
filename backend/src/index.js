@@ -1,12 +1,14 @@
-import express from "express"
-import helmet from "helmet"
-import mongoose from "mongoose"
-import books from "./routes/books.js"
+const express = require("express")
+const helmet = require("helmet")
+const mongoose = require("mongoose")
+const cors = require("cors")
+const books = require("./routes/books.js")
 
 const app = express()
 const port = process.env.PORT || 8000
 
 app.use(express.json())
+app.use(cors())
 app.use(helmet())
 app.use("/api/books", books)
 

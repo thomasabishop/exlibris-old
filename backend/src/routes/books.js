@@ -1,5 +1,7 @@
-import express from "express"
-import Books from "../models/books.js"
+const express = require("express")
+const Books = require("../models/books.js")
+// import Books from "../models/books.js"
+// import express from "express"
 
 const router = express.Router()
 
@@ -24,4 +26,4 @@ router.post("/", async (req, res) => {
   res.send(book)
 })
 
-export default router
+module.exports = router
