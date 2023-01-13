@@ -1,10 +1,10 @@
 import React from "react"
-import BookTable from "../components/BookTable"
+// import BookTable from "../components/BookTable"
 const Home = () => {
    return (
       <React.Fragment>
          <h1 className="h2 pb-3 pt-1">Index</h1>
-         <BookTable />
+         {/* <BookTable /> */}
       </React.Fragment>
    )
 }

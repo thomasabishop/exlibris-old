@@ -1,2 +1,2 @@
-import BookTable from "./BookTable";
+import BookTable from "./BookTable"
 export default BookTable

@@ -1,2 +1,2 @@
-import BookTableRow from "./BookTableRow";
+import BookTableRow from "./BookTableRow"
 export default BookTableRow

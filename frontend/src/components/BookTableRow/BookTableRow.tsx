@@ -1,5 +1,5 @@
 import React from "react"
-import IBookEntry from "../../types/IBookEntry"
+import IBookEntry from "../../types/IBookBook"
 const BookTableRow: React.FC<IBookEntry> = ({ ...book }: IBookEntry) => {
    return (
       <tr>

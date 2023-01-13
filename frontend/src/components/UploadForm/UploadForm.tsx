@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap"
 import "./UploadForm.scss"
 import { bookCategories } from "../../data/testData"
 import { useForm, SubmitHandler } from "react-hook-form"
-import IBookEntry from "../../types/IBookEntry"
+import IBookEntry from "../../types/IBookBook"
 import ToastMessage from "../ToastMessage"
 
 const UploadForm: React.FC = () => {
